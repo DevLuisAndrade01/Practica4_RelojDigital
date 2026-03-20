@@ -22,3 +22,15 @@ C:\Users\win512\Downloads\Practica4_RelojDigital-main\Practica4_RelojDigital-mai
 C:\Users\win512\Downloads\Practica4_RelojDigital-main\Practica4_RelojDigital-main\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.exe
 C:\Users\win512\Downloads\Practica4_RelojDigital-main\Practica4_RelojDigital-main\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.xml
 C:\Users\win512\Downloads\Practica4_RelojDigital-main\Practica4_RelojDigital-main\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.pdb
+C:\LuisAndrade_24889\Practica4_RelojDigital-main\Practica4_RelojDigital-main\WindowsApp2\WindowsApp2\bin\Debug\WindowsApp2.exe.config
+C:\LuisAndrade_24889\Practica4_RelojDigital-main\Practica4_RelojDigital-main\WindowsApp2\WindowsApp2\bin\Debug\WindowsApp2.exe
+C:\LuisAndrade_24889\Practica4_RelojDigital-main\Practica4_RelojDigital-main\WindowsApp2\WindowsApp2\bin\Debug\WindowsApp2.pdb
+C:\LuisAndrade_24889\Practica4_RelojDigital-main\Practica4_RelojDigital-main\WindowsApp2\WindowsApp2\bin\Debug\WindowsApp2.xml
+C:\LuisAndrade_24889\Practica4_RelojDigital-main\Practica4_RelojDigital-main\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.vbprojAssemblyReference.cache
+C:\LuisAndrade_24889\Practica4_RelojDigital-main\Practica4_RelojDigital-main\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.Form1.resources
+C:\LuisAndrade_24889\Practica4_RelojDigital-main\Practica4_RelojDigital-main\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.Resources.resources
+C:\LuisAndrade_24889\Practica4_RelojDigital-main\Practica4_RelojDigital-main\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.vbproj.GenerateResource.cache
+C:\LuisAndrade_24889\Practica4_RelojDigital-main\Practica4_RelojDigital-main\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.vbproj.CoreCompileInputs.cache
+C:\LuisAndrade_24889\Practica4_RelojDigital-main\Practica4_RelojDigital-main\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.exe
+C:\LuisAndrade_24889\Practica4_RelojDigital-main\Practica4_RelojDigital-main\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.xml
+C:\LuisAndrade_24889\Practica4_RelojDigital-main\Practica4_RelojDigital-main\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.pdb
