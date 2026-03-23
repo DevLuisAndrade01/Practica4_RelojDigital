@@ -37,9 +37,16 @@ Partial Class Form1
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.segundos = New System.Windows.Forms.Label()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.reset = New System.Windows.Forms.Button()
+        Me.Button_start = New System.Windows.Forms.Button()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'horas
@@ -108,7 +115,7 @@ Partial Class Form1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.LemonChiffon
         Me.PictureBox1.Image = Global.WindowsApp2.My.Resources.Resources.reloj12
-        Me.PictureBox1.Location = New System.Drawing.Point(-39, -3)
+        Me.PictureBox1.Location = New System.Drawing.Point(-38, 2)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(1048, 440)
         Me.PictureBox1.TabIndex = 5
@@ -129,9 +136,9 @@ Partial Class Form1
         Me.Panel1.Controls.Add(Me.ComboBox1)
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Location = New System.Drawing.Point(286, 124)
+        Me.Panel1.Location = New System.Drawing.Point(281, 124)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(425, 204)
+        Me.Panel1.Size = New System.Drawing.Size(430, 204)
         Me.Panel1.TabIndex = 7
         Me.Panel1.Visible = False
         '
@@ -139,14 +146,14 @@ Partial Class Form1
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"blanco", "rojo", "azul", "amarillo", "verde"})
-        Me.ComboBox1.Location = New System.Drawing.Point(27, 92)
+        Me.ComboBox1.Location = New System.Drawing.Point(151, 95)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
         Me.ComboBox1.TabIndex = 8
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(59, 52)
+        Me.Button1.Location = New System.Drawing.Point(188, 51)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(62, 33)
         Me.Button1.TabIndex = 1
@@ -169,9 +176,60 @@ Partial Class Form1
         Me.segundos.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.segundos.Location = New System.Drawing.Point(595, 237)
         Me.segundos.Name = "segundos"
-        Me.segundos.Size = New System.Drawing.Size(66, 24)
+        Me.segundos.Size = New System.Drawing.Size(30, 24)
         Me.segundos.TabIndex = 8
-        Me.segundos.Text = "Label3"
+        Me.segundos.Text = "00"
+        '
+        'Panel2
+        '
+        Me.Panel2.Controls.Add(Me.reset)
+        Me.Panel2.Controls.Add(Me.Button_start)
+        Me.Panel2.Controls.Add(Me.Label4)
+        Me.Panel2.Controls.Add(Me.Label3)
+        Me.Panel2.Location = New System.Drawing.Point(392, 124)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(210, 204)
+        Me.Panel2.TabIndex = 9
+        '
+        'reset
+        '
+        Me.reset.Location = New System.Drawing.Point(122, 139)
+        Me.reset.Name = "reset"
+        Me.reset.Size = New System.Drawing.Size(60, 33)
+        Me.reset.TabIndex = 3
+        Me.reset.Text = "Reset"
+        Me.reset.UseVisualStyleBackColor = True
+        '
+        'Button_start
+        '
+        Me.Button_start.Location = New System.Drawing.Point(27, 138)
+        Me.Button_start.Name = "Button_start"
+        Me.Button_start.Size = New System.Drawing.Size(59, 32)
+        Me.Button_start.TabIndex = 2
+        Me.Button_start.Text = "start"
+        Me.Button_start.UseVisualStyleBackColor = True
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(48, 70)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(39, 13)
+        Me.Label4.TabIndex = 1
+        Me.Label4.Text = "Label4"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(32, 15)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(124, 25)
+        Me.Label3.TabIndex = 0
+        Me.Label3.Text = "Cronometro"
+        '
+        'Timer3
+        '
         '
         'Form1
         '
@@ -179,6 +237,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Info
         Me.ClientSize = New System.Drawing.Size(998, 433)
+        Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.segundos)
         Me.Controls.Add(Me.PictureBox2)
@@ -194,6 +253,8 @@ Partial Class Form1
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -213,4 +274,10 @@ Partial Class Form1
     Friend WithEvents Button1 As Button
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents segundos As Label
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents reset As Button
+    Friend WithEvents Button_start As Button
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Timer3 As Timer
 End Class
