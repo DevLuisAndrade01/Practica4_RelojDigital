@@ -63,6 +63,36 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property depositphotos_552238290_stock_video_white_picture_of_gear_on() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("depositphotos_552238290-stock-video-white-picture-of-gear-on", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property reloj12() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("reloj12", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Sin_título() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Sin título", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Smiling_friendsa() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Smiling friendsa", resourceCulture)

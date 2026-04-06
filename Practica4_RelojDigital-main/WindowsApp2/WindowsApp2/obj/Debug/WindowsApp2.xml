@@ -22,16 +22,6 @@ WindowsApp2
   búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
 </summary>
 </member>
-<member name="P:WindowsApp2.My.Resources.Resources.depositphotos_552238290_stock_video_white_picture_of_gear_on">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:WindowsApp2.My.Resources.Resources.reloj12">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="P:WindowsApp2.My.Resources.Resources.Smiling_friendsa">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
