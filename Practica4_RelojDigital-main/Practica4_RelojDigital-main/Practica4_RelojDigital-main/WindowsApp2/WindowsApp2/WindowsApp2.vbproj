@@ -122,5 +122,17 @@
   <ItemGroup>
     <None Include="Resources\Smiling friendsa.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reloj12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_552238290-stock-video-white-picture-of-gear-on.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin título.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2reloj.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
